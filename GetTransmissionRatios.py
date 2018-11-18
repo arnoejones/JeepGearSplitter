@@ -1,6 +1,7 @@
 # Refactored out of the graph programs.
 # adding more shit from the Mac version
 #adding from the win machine now, dammit
+# ok, from mac to win again.  Make changes, commit, but uncheck other files, VCS/
 import WranglerRatiosLookup
 
 
