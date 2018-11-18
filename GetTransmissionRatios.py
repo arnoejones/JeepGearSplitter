@@ -1,6 +1,6 @@
 # Refactored out of the graph programs.
 # adding more shit from the Mac version
-
+#adding from the win machine now, dammit
 import WranglerRatiosLookup
 
 
