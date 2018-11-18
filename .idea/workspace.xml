@@ -45,6 +45,14 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1160582838">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
@@ -58,7 +66,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PlotDiffComparison.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
+                <state relative-caret-position="225">
                   <caret line="15" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
@@ -67,7 +75,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/PlotMphToRpm.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
+                <state relative-caret-position="150">
                   <caret line="19" selection-start-line="19" selection-end-line="19" />
                   <folding>
                     <element signature="e#378#389#0" expanded="true" />
@@ -79,7 +87,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/PlotRpmToMph.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
+                <state relative-caret-position="210">
                   <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
                 </state>
               </provider>
@@ -88,7 +96,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CalculateTireDiameter.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
+                <state relative-caret-position="90">
                   <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#11#0" expanded="true" />
@@ -115,7 +123,7 @@
     </splitter>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/JeepGearSplitter" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -128,7 +136,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="99" />
-    <option name="y" value="18" />
+    <option name="y" value="23" />
     <option name="width" value="2089" />
     <option name="height" value="1369" />
   </component>
@@ -155,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PlotDiffComparison">
+  <component name="RunManager" selected="Python.PlotRpmToMph">
     <configuration name="CalculateTireDiameter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="JeepGearSplitter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,9 +256,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PlotRpmToMph" />
         <item itemvalue="Python.PlotDiffComparison" />
         <item itemvalue="Python.PlotMphToRpm" />
-        <item itemvalue="Python.PlotRpmToMph" />
         <item itemvalue="Python.CalculateTireDiameter" />
       </list>
     </recent_temporary>
@@ -269,8 +277,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="18" width="2089" height="1369" extended-state="0" />
-    <editor active="true" />
+    <frame x="99" y="23" width="2089" height="1369" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16626036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -283,8 +290,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4973184" visible="true" weight="0.32893652" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5026816" side_tool="true" visible="true" weight="0.32893652" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49661508" visible="true" weight="0.32854864" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5033849" side_tool="true" visible="true" weight="0.32854864" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49975622" weight="0.32893652" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -326,7 +333,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PlotMphToRpm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="150">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#378#389#0" expanded="true" />
@@ -336,14 +343,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PlotRpmToMph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="210">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CalculateTireDiameter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="90">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -351,17 +358,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PlotDiffComparison.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/splitter.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlotDiffComparison.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
