@@ -1,4 +1,5 @@
 # Refactored out of the graph programs.
+# adding more shit from the Mac version
 
 import WranglerRatiosLookup
 
