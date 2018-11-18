@@ -1,0 +1,106 @@
+label{display: block; }
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: Khaki;
+    padding: 2px;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.title-div-class{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: Black;
+    background-color: Khaki;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+
+}
+
+.buttons-div-class{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: LightGoldenRodYellow;
+    padding: 2px;
+}
+
+.graph-div-class{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: LemonChiffon ;
+}
+
+.button-div-class{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+    background-color: Khaki;
+
+}
+.mph-div{
+    padding: 10px;
+    border: 1px solid blue;
+    width: 35%;
+}
+
+.rpm-div{
+    float: left;
+    padding: 10px;
+    width: 35%;
+    border: 1px solid red;
+}
+
+.jeep-div{
+    width: 40%;
+    padding: 10px;
+
+}
+
+.tranny-div{
+    float: left;
+    padding: 10px;
+    background-color: Khaki;
+    border: 1px solid black;
+}
+
+.rubi-div{
+    float: left;
+    background-color: Khaki;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.tcase-div{
+    float: left;
+    background-color: Khaki;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.diff-div{
+    width: 40%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.button-div{
+    padding: 10px;
+}
+
+.master-div{
+    background-color: Azure;
+}
+#h3{
+    background-color: green;
+    font-family: Impact;
+}
