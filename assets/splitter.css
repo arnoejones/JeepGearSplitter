@@ -1,4 +1,4 @@
-/* radio buttons stacked instead of inline
+radio buttons stacked instead of inline
 label{display: block; }
 
 .grid-container{
@@ -46,7 +46,7 @@ label{display: block; }
     grid-column-end: 4;
     text-align: center;
     background-color: Khaki;
-
+/*
 }
 .mph-div{
     padding: 10px;
