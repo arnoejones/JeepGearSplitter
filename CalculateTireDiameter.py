@@ -1,4 +1,12 @@
-# still messing with the css for this stuff.
+# Purpose: User interface to display effective tire diameter.
+#
+# Author:      Arno E Jones
+#
+# Created:     10/08/2018
+# Copyright:   (c) jonesar 2018
+# Licence:     This code can be freely shared and modified as long as the author is credited with the original (this) version.
+#-------------------------------------------------------------------------------
+
 import dash
 import dash_core_components as dcc
 import dash_html_components as html

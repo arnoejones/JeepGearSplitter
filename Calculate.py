@@ -3,7 +3,7 @@
 # Author:      Arno E Jones
 #
 # Created:     7/13/2018
-# Copyright:   (c) jonesar 2018
+# Copyright:   (c) jonesar 2018 - 2019
 # Licence:     This code can be freely shared and modified as long as the author is credited with the original (this) version.
 #-------------------------------------------------------------------------------
 

@@ -1,9 +1,14 @@
-# Refactored out of the graph programs.
-# adding more shit from the Mac version
-#adding from the win machine now, dammit
-# ok, from mac to win again.  Make changes, commit, but uncheck other files, VCS/Git/Push
-import WranglerRatiosLookup
+# Purpose: Lookup table for various things that may change.
+#
+# Author:      Arno E Jones
+#
+# Created:     10/08/2018
+# Copyright:   (c) jonesar 2018
+# Licence:     This code can be freely shared and modified as long as the author is credited with the original (this) version.
+#-------------------------------------------------------------------------------
 
+# Refactored out of the graph programs.
+import WranglerRatiosLookup
 
 class GetTransmissionRatios():
 
