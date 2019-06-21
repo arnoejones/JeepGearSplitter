@@ -5,9 +5,10 @@
 # Created:     7/13/2018
 # Copyright:   (c) jonesar 2018
 # Licence:     This code can be freely shared and modified as long as the author is credited with the original (this) version.
-#-------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 
 import math
+
 
 class JeepGearSplitter():
 
@@ -19,6 +20,9 @@ class JeepGearSplitter():
         self.transmissionType = transmissionType
         self.rubicon = rubicon
         self.fourLowEngaged = fourLowEngaged
+
+    for num in [1, 2, 3, 4]:
+        print(num)
 
     # arguments for calculating Speed from RPM
     def calculateSpeedFromRpm(differentialGearRatio, tireDiameter, transmissionGearRatio, transferCaseRatio):
@@ -33,7 +37,6 @@ class JeepGearSplitter():
         rpm_mph_list = [rpmList, speedList]
 
         return rpm_mph_list
-
 
     # arguments for calculating RPM from Speed
     def calculateRpmFromSpeed(differentialGearRatio, tireDiameter, transmissionGearRatio, transferCaseRatio):
@@ -51,8 +54,8 @@ class JeepGearSplitter():
             # don't display ridiculous RPM readings on the graph
             if (int((mph * transmissionGearRatio * transferCaseRatio * differentialGearRatio * 63360) / (tireDiameter * math.pi * 60))) < 7000:
                 rpmList.append(int(
-                     (mph * transmissionGearRatio * transferCaseRatio * differentialGearRatio * 63360) /
-                                                      (tireDiameter * math.pi * 60)))
+                    (mph * transmissionGearRatio * transferCaseRatio * differentialGearRatio * 63360) /
+                    (tireDiameter * math.pi * 60)))
         mph_rpm_list = []
         mph_rpm_list.append(mphList)
         mph_rpm_list.append(rpmList)
@@ -62,3 +65,7 @@ class JeepGearSplitter():
     def calculateTireDiameter(mph, tranny_gear, tcase, diff, rpm):
         tire = ((mph * tranny_gear * tcase * diff * 63360) / (rpm * 60 * math.pi))
         return tire
+
+    def calculateAxleRatio(rpm, tireDiameter, mph, transmissionGearRatio, tcase):
+        diff = (rpm * tireDiameter * math.pi)/(mph * transmissionGearRatio * tcase * 63360)
+        return diff
